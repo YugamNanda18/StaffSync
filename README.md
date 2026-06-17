@@ -1,9 +1,14 @@
 Empify
+
 Empify is an Employee management platform built with a React + Vite frontend and a Node.js + Express backend. It supports admin and employee workflows for attendance, leave management, payslip generation, profile management, and employee administration.
 
+
 🚀 Key Features
+
 Admin Features
+
 Admin login and session authentication
+
 Employee management
 Add new employees
 Edit employee details
