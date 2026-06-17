@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: (import.meta.env.VITE_BASE_URL || "https://staffsync-ibrk.onrender.com/") + "/api",
+  baseURL: (import.meta.env.VITE_BASE_URL || "https://staffsync-ibrk.onrender.com") + "/api",
 });
 
 // Attach Auth token to all network requests
