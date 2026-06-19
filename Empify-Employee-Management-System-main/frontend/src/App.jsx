@@ -39,7 +39,7 @@ const App = () => {
           <Route path="/leave" element={<Leave />} />
         </Route>
         <Route path="/print/payslips/:id" element={<PrintPayslip />} />
-        <Route path="*" element={<Navigate to="/dashboard" replace />} />
+        <Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>
     </>
   );
